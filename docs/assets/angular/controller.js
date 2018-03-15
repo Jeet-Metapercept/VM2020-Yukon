@@ -120,23 +120,28 @@ yukonApp
                     submenu: [
                         {
                             title: 'Creat APP',
-                            link: 'auth.forms.regular_elements'
+                            //link: 'auth.forms.regular_elements'
+							link: 'auth.home'
                         },
                         {
                             title: 'Connect to Environment',
-                            link: 'auth.forms.extended_elements'
+                            //link: 'auth.forms.extended_elements'
+							link: 'auth.home'
                         },
                         {
                             title: 'Cluster Selections',
-                            link: 'auth.forms.gridform'
+                            //link: 'auth.forms.gridform'
+							link: 'auth.home'
                         },
                         {
                             title: 'Select the VMs',
-                            link: 'auth.forms.validation'
+                            //link: 'auth.forms.validation'
+							link: 'auth.home'
                         },
                         {
                             title: 'Application Validations',
-                            link: 'auth.forms.wizard'
+                            //link: 'auth.forms.wizard'
+							link: 'auth.home'
                         }
                     ]
                 },
@@ -145,7 +150,7 @@ yukonApp
                     title: 'Network',
                     icon: 'icon_folder-alt first_level_icon',
                     badge: true,
-                    submenu_title: 'Pages',
+                    /* submenu_title: 'Pages',
                     submenu: [
                         {
                             title: 'Chat',
@@ -199,13 +204,13 @@ yukonApp
                             title: 'User Profile 2',
                             link: 'auth.pages.userProfile2'
                         }
-                    ]
+                    ] */
                 },
                 {
                     id: 3,
                     title: 'Deploy',
                     icon: 'icon_puzzle first_level_icon',
-                    submenu_title: 'Components',
+                    /* submenu_title: 'Components',
                     submenu: [
                         {
                             title: 'Gallery',
@@ -232,14 +237,14 @@ yukonApp
                             link: 'auth.components.typography'
                         }
 
-                    ]
+                    ] */
                 },
                 {
                     id: 4,
                     title: 'Active ENV',
                     icon: 'icon_lightbulb_alt first_level_icon',
                     //badge: true,
-                    submenu_title: 'Plugins',
+                    /* submenu_title: 'Plugins',
                     submenu: [
                         {
                             title: 'Ace Editor',
@@ -269,14 +274,14 @@ yukonApp
                             title: 'Vector Maps',
                             link: 'auth.plugins.vectorMaps'
                         }
-                    ]
+                    ] */
                 },
 				{
                     id: 5,
                     title: 'Past ENV',
                     icon: 'icon_lightbulb first_level_icon',
                    // badge: true,
-                    submenu_title: 'Plugins',
+                    /* submenu_title: 'Plugins',
                     submenu: [
                         {
                             title: 'Ace Editor',
@@ -306,14 +311,14 @@ yukonApp
                             title: 'Vector Maps',
                             link: 'auth.plugins.vectorMaps'
                         }
-                    ]
+                    ] */
                 },
 				{
                     id: 6,
                     title: 'Auto-Testing',
                     icon: 'icon_puzzle_alt first_level_icon',
                     //badge: true,
-                    submenu_title: 'Plugins',
+                    /* submenu_title: 'Plugins',
                     submenu: [
                         {
                             title: 'Ace Editor',
@@ -343,7 +348,7 @@ yukonApp
                             title: 'Vector Maps',
                             link: 'auth.plugins.vectorMaps'
                         }
-                    ]
+                    ] */
                 }
             ];
 
