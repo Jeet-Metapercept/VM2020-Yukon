@@ -119,7 +119,7 @@ yukonApp
                     submenu_title: 'Forms',
                     submenu: [
                         {
-                            title: 'Creat App',
+                            title: 'Create App',
                             //link: 'auth.forms.regular_elements'
 							link: 'auth.forms.wizard'
                         }/* ,
