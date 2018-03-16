@@ -121,8 +121,8 @@ yukonApp
                         {
                             title: 'Creat APP',
                             //link: 'auth.forms.regular_elements'
-							link: 'auth.home'
-                        },
+							link: 'auth.forms.wizard'
+                        }/* ,
                         {
                             title: 'Connect to Environment',
                             //link: 'auth.forms.extended_elements'
@@ -142,7 +142,7 @@ yukonApp
                             title: 'Application Validations',
                             //link: 'auth.forms.wizard'
 							link: 'auth.home'
-                        }
+                        } */
                     ]
                 },
                 {
